@@ -19,7 +19,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Ibrahim</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I like to create engaging and &nbsp;
+            I like to develop engaging,&nbsp;
             <br className="sm:block hidden" />
             seamless user experiences
           </p>

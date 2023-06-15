@@ -135,6 +135,7 @@ const projects = [
     ],
     image: CaringGuide,
     source_code_link: "https://github.com/",
+    deploy_link: "http://localhost:5173/"
   },
   {
     name: "Nutrishify",
@@ -143,19 +144,28 @@ const projects = [
     tags: [
       {
         name: "python-flask",
-        color: "text-yellow",
+        color: "yellow-text-gradient",
       },
       {
         name: "HTML",
         color: "orange-text-gradient",
       },
       {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
         name: "css",
         color: "blue-text-gradient",
+      },
+      {
+        name: "api",
+        color: "green-text-gradient",
       },
     ],
     image: Nutrishify,
     source_code_link: "https://github.com/IbrahimKhanGH/spotifytest",
+    deploy_link: "Nutrishify-herokoapp.com"
   },
   {
     name: "Portfolio",
@@ -176,7 +186,8 @@ const projects = [
       },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/IbrahimKhanGH/3dPortfolio",
+    deploy_link: "http://localhost:5173/"
   },
 ];
 
