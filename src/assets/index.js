@@ -33,6 +33,9 @@ import tesla from "./company/tesla.png";
 import CaringGuide from "./CaringGuide.png";
 import Nutrishify from "./Nutrishify.png";
 import portfolio from "./portfolio.png";
+import EPICUSA from "./EPICUSA.png";
+import appTrack from "./appTrack.png";
+import RTWeather from "./RTWeather.png"
 
 export {
   logo,
@@ -67,4 +70,7 @@ export {
   CaringGuide,
   Nutrishify,
   portfolio,
+  EPICUSA,
+  appTrack,
+  RTWeather,
 };

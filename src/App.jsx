@@ -2,7 +2,7 @@ import { nativeSelectClasses } from '@mui/material';
 import { fromPairs } from 'lodash';
 import { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import { About, Contact, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience , Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
 
 const App = () => {
@@ -15,8 +15,10 @@ const App = () => {
           <Hero/>
         </div>
         <About/>
+        <Experience/>
         <Works/>
         <Tech/>
+
         <div className='relative z-0'>
             <Contact/>
             <StarsCanvas/>

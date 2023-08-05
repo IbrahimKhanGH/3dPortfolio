@@ -41,15 +41,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 color-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm Ibrahim Khan , a computer science student at the University of Texas
-        at Dallas, set to graduate in 2025. I have a strong passion for web
-        development, particularly in creating visually appealing user interfaces
-        and seamless user experiences. As I continue my studies, I'm excited to
-        explore other areas within computer science and discover new interests.
-        Outside of coding, I enjoy engaging in diverse hobbies and activities.
-        My ultimate goal is to contribute to the ever-evolving world of
-        technology and make a positive impact through innovative projects. Let's
-        connect and explore possibilities together!
+        I am Ibrahim Khan, a computer science student graduating in May 2025,
+        with a strong passion for web development and creating visually
+        appealing user interfaces for seamless experiences. I thrive on
+        efficiently solving problems and continuously exploring new areas within
+        computer science. Beyond coding, I engage in diverse hobbies, fostering
+        creativity and a well-rounded perspective. My ultimate goal is to
+        contribute to the ever-evolving world of technology, making a positive
+        impact through innovative projects. I am eager to secure an internship
+        opportunity where I can further sharpen my skills and collaborate on
+        meaningful projects. Let's connect and explore possibilities together!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
