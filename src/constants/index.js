@@ -27,6 +27,9 @@ import {
   cplusplus,
   Nutrishify,
   CaringGuide,
+  EPICUSA,
+  appTrack,
+  RTWeather,
 } from "../assets";
 
 export const navLinks = [
@@ -41,7 +44,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  }
+  },
 ];
 
 const services = [
@@ -50,16 +53,32 @@ const services = [
     icon: creator,
   },
   {
-    title: "Frontend Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "UI/UX",
+    title: "Web Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Web Designer",
     icon: backend,
+  },
+];
+
+const experiences = [
+  {
+    title: "Full Stack Developer",
+    company_name: "Caring Guide",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "May 2023 - August 2023",
+    points: [
+      "Developed critical pages (home, dashboard, journal) using a stack comprising React, TypeScript, TailwindCSS, Python, and Next.js, resulting in an optimized user experience, while Python and Next.js facilitated efficient data storage.",
+      "Led the end-to-end website design, meticulously managing user profiles, favorite articles, and journal pages. The visually appealing dashboard page effectively enhanced user engagement and usability.",
+      "Achieved milestones in website development with Node.js, optimizing data storage for future mobile app integration.",
+      "Collaborated with a cross-functional team to conduct code reviews, identify performance bottlenecks, and implement enhancements, resulting in a highly stable and scalable web application.",
+    ],
   },
 ];
 
@@ -116,6 +135,33 @@ const technologies = [
 
 const projects = [
   {
+    name: "appTrack",
+    description:
+      "a web-based platform designed to simplify your job and internship application process. Connect with ease and effortlessly manage your applications in one centralized location. Stay organized, track deadlines, and gain valuable insights to optimize your career prospects.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "next",
+        color: "green-text-gradient",
+      },
+    ],
+    image: appTrack,
+    source_code_link: "https://github.com/",
+    deploy_link: "http://localhost:5173/",
+  },
+  
+  {
     name: "Caring Guide",
     description:
       "Web-based platform and upcoming mobile app that connects individuals in need of care with experienced caregivers. It provides a mentoring-like program, allowing caregivers to learn from those who have firsthand experience in caring for individuals.",
@@ -135,7 +181,7 @@ const projects = [
     ],
     image: CaringGuide,
     source_code_link: "https://github.com/",
-    deploy_link: "http://localhost:5173/"
+    deploy_link: "http://localhost:5173/",
   },
   {
     name: "Nutrishify",
@@ -165,7 +211,25 @@ const projects = [
     ],
     image: Nutrishify,
     source_code_link: "https://github.com/IbrahimKhanGH/spotifytest",
-    deploy_link: "Nutrishify-herokoapp.com"
+    deploy_link: "Nutrishify-herokoapp.com",
+  },
+  {
+    name: "EPIC USA Construction",
+    description:
+      "An intuitive platform that showcases a construction company's expertise, extensive portfolio, and core values. Streamlined for easy navigation, it offers a professional online presence to help the company grow and excel in the industry",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: EPICUSA,
+    source_code_link: "https://github.com/",
+    deploy_link: "http://localhost:5173/",
   },
   {
     name: "Portfolio",
@@ -187,8 +251,35 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/IbrahimKhanGH/3dPortfolio",
-    deploy_link: "http://localhost:5173/"
+    deploy_link: "IbrahimKhan.me",
+  },
+  {
+    name: "Real Time Weather App",
+    description:
+      "Web Platform To display Real Time Weather data anywhere acorss the Globe. Utilizes device location as well as visual representation of current weather in given location.",
+    tags: [
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+        
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: RTWeather,
+    source_code_link: "https://github.com/",
+    deploy_link: "http://localhost:5173/",
   },
 ];
 
-export { services, technologies, projects };
+export { services, technologies, projects, experiences };
